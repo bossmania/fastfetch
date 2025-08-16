@@ -14,10 +14,10 @@
       "title": "#07e807",
       "output": "white"
     },
-    "key": {
-      //show the icon and string for the key
-      "type": "both"
-    },
+    // "key": {
+    //   //show the icon and string for the key
+    //   "type": "both"
+    // },
     //make it show a color percentage that change colors
     "percent": {
       "type": 9,
@@ -29,40 +29,73 @@
     }
   },
   "modules": [
-    //software
-    "title",
-    "separator",
-    "os",
-    "kernel",
-    "uptime",
-    "packages",
-    "shell",
-    "terminal",
-    "terminalfont",
-    "localip",
-    "font",
-    "cursor",
-    "locale",
-    
-    //hardware
-    "break",
-    "host",
-    "de",
-    "wm",
-    "wmtheme",
-    "theme",
-    "icons",
-    "display",
-    "cpu",
-    "gpu",
-    "memory",
-    "swap",
-    "disk",
-    "battery",
-    "poweradapter",
+    //distro info
+    {
+    "type": "os",
+    "key": " DISTRO",
+    "keyColor": "#f9bb11"
+    },
+    {
+    "type": "kernel",
+    "key": "├─ Kernal",
+    "keyColor": "#f9bb11"
+    },
+    {
+    "type": "packages",
+    "key": "├─󰏖 Packages",
+    "keyColor": "#f9bb11"
+    },
+    {
+    "type": "shell",
+    "key": "├─ Shell",
+    "keyColor": "#f9bb11"
+    },
+    {
+      "type": "uptime",
+      "key": "└─󰅐 Uptime",
+      "keyColor": "#f9bb11"
+    }
 
-    //other
-    "break",
-    "colors"
+    // //software
+    // "title",
+    // "separator",
+    // "os",
+    // "kernel",
+    // "uptime",
+    // "packages",
+    // "shell",
+    // "terminal",
+    // "terminalfont",
+    // "localip",
+    // "font",
+    // "cursor",
+    // "locale",
+    
+    // //hardware
+    // "break",
+    // "host",
+    // "de",
+    // "wm",
+    // "wmtheme",
+    // "theme",
+    // "icons",
+    // "display",
+    // "cpu",
+    // "gpu",
+    // "memory",
+    // "swap",
+    // "disk",
+    // "battery",
+    // "poweradapter",
+
+    // //other
+    // "break",
+    // "colors"
+    // "battery",
+    // "poweradapter",
+
+    // //other
+    // "break",
+    // "colors"
   ]
 }
