@@ -5,9 +5,29 @@
     //point to where the logo lives at, and make it blue
     "type": "file",
     "source": "logo.txt",
-    "color": { "1": "blue"}
+    "color": { "1": "#1794d2", "2":"#1794d2"}
   },
-  "display": {},
+  "display": {
+    "color": {
+      //change the color of the text
+      "keys": "cyan",
+      "title": "#07e807",
+      "output": "white"
+    },
+    "key": {
+      //show the icon and string for the key
+      "type": "both"
+    },
+    //make it show a color percentage that change colors
+    "percent": {
+      "type": 9,
+      "color": {
+        "green": "green",
+        "yellow": "light_yellow",
+        "red": "light_red"
+      }
+    }
+  },
   "modules": [
     "title",
     "separator",
