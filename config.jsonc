@@ -42,22 +42,22 @@
     {
     "type": "kernel",
     "key": "├─ Kernal",
-    "keyColor": "#f9bb11"
+    "keyColor": "#ba8f14"
     },
     {
     "type": "packages",
     "key": "├─󰏖 Packages",
-    "keyColor": "#f9bb11"
+    "keyColor": "#ba8f14"
     },
     {
     "type": "shell",
     "key": "├─ Shell",
-    "keyColor": "#f9bb11"
+    "keyColor": "#ba8f14"
     },
     {
       "type": "uptime",
       "key": "└─󰅐 Uptime",
-      "keyColor": "#f9bb11"
+      "keyColor": "#ba8f14"
     }
 
     // //software
