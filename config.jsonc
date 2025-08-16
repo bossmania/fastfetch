@@ -29,6 +29,10 @@
     }
   },
   "modules": [
+    //title
+    "title",
+    "separator",
+
     //distro info
     {
     "type": "os",
