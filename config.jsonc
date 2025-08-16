@@ -10,14 +10,9 @@
   "display": {
     "color": {
       //change the color of the text
-      "keys": "cyan",
-      "title": "#07e807",
+      "title": "red",
       "output": "white"
     },
-    // "key": {
-    //   //show the icon and string for the key
-    //   "type": "both"
-    // },
     //make it show a color percentage that change colors
     "percent": {
       "type": 9,
@@ -100,35 +95,70 @@
     },
     {
      	"type": "locale",
-      "key": "└─  Lang",
+      "key": "└─ Lang",
       "keyColor": "blue"
     },
-    "break"
+    "break",
 
-
-    // "localip",
+    //hardware
+    {
+      "type": "host",
+      "key": "󰌢 SYSTEM",
+      "keyColor": "#28cc12"
+    },
+    {
+      "type": "cpu",
+      "key": "├─󰻠 CPU",
+      "keyColor": "green"
+    },
+    {
+      "type": "gpu",
+      "key": "├─󰻑 GPU",
+      "format": "({6}) {2}",
+      "keyColor": "green"
+    },
+    {
+      "type": "display",
+      "key": "├─󰍹 Display",
+      "keyColor": "green",
+      "compactType": "original-with-refresh-rate"
+    },
+    {
+      "type": "memory",
+      "key": "├─󰾆 Memory",
+      "keyColor": "green"
+    },
+    {
+      "type": "swap",
+      "key": "├─󰓡 Swap",
+      "keyColor": "green"
+    },
+    {
+      "type": "disk",
+      "key": "├─  Disk",
+      "format": "({20}) {3} {1}/{2} - {9}",
+      "keyColor": "green"
+    },
+    {
+      "type": "localip",
+      "key": "├─󰖟 IP",
+      "keyColor": "green"
+    },
+    {
+      "type": "sound",
+      "key": "└─  Audio",
+      "format": "{2}",
+      "keyColor": "green"
+    },
+    {
+      "type": "battery",
+      "key": "└─󱈑 Battery",
+      "format": "{4} [{5}] ({2})",
+      "keyColor": "green"
+    },
     
-    // //hardware
-    // "break",
-    // "host",
-    // "theme",
-    // "display",
-    // "cpu",
-    // "gpu",
-    // "memory",
-    // "swap",
-    // "disk",
-    // "battery",
-    // "poweradapter",
-
-    // //other
-    // "break",
-    // "colors"
-    // "battery",
-    // "poweradapter",
-
-    // //other
-    // "break",
-    // "colors"
+    //misc
+    "break",
+    "colors"
   ]
 }
