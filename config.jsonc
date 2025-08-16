@@ -5,7 +5,11 @@
     //point to where the logo lives at, and make it blue
     "type": "file",
     "source": "$HOME/.config/fastfetch/logo.txt",
-    "color": { "1": "#1794d2", "2":"#1794d2"}
+    "color": { 
+      "1": "#1794d2", 
+      "2":"#545454",
+      "3":"#472b20"
+    }
   },
   "display": {
     "color": {
