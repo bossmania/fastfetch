@@ -105,29 +105,13 @@
     },
     "break"
 
-    // //software
-    // "title",
-    // "separator",
-    // "os",
-    // "kernel",
-    // "uptime",
-    // "packages",
-    // "shell",
-    // "terminal",
-    // "terminalfont",
+
     // "localip",
-    // "font",
-    // "cursor",
-    // "locale",
     
     // //hardware
     // "break",
     // "host",
-    // "de",
-    // "wm",
-    // "wmtheme",
     // "theme",
-    // "icons",
     // "display",
     // "cpu",
     // "gpu",
