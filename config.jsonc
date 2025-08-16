@@ -58,7 +58,52 @@
       "type": "uptime",
       "key": "└─󰅐 Uptime",
       "keyColor": "#ba8f14"
-    }
+    },
+
+    "break",
+
+    //DE/WM info
+    {
+      "type": "wm",
+      "key": " DE/WM",
+      "keyColor": "#0096b3"
+    },
+    {
+      "type": "wmtheme",
+      "key": "├─󰉼 WM Theme",
+      "keyColor": "blue"
+    },
+    {
+      "type": "icons",
+      "key": "├─󰀻 Icons",
+      "keyColor": "blue"
+    },
+    {
+      "type": "cursor",
+      "key": "├─󰆿 Cursor",
+      "keyColor": "blue"
+    },
+    {
+      "type": "terminal",
+      "key": "├─ Terminal",
+      "keyColor": "blue"
+    },
+    {
+     	"type": "terminalfont",
+      "key": "├─ Terminal Font",
+      "keyColor": "blue"
+    },
+    {
+     	"type": "font",
+      "key": "├─ Font",
+      "keyColor": "blue"
+    },
+    {
+     	"type": "locale",
+      "key": "└─  Lang",
+      "keyColor": "blue"
+    },
+    "break"
 
     // //software
     // "title",
